@@ -1,0 +1,195 @@
+/*Header*/
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 22px;
+    font-family: Helvetica;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 69px;
+}
+.logo img {
+    opacity: 0.9;
+    padding-left: 10px;
+    height: 50px;
+    display: flex;
+    flex-grow: 1;
+}
+nav {
+    display: flex;
+}
+nav span {
+    padding: 10px;
+    flex-wrap: nowrap;
+}
+nav span a {
+    color: seashell;
+    opacity: 0.9;
+}
+
+/*body*/
+
+body {
+    background-color: black;
+}
+
+/*Main*/
+
+.mission-content {
+    background-image: url("./images/img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    font-family: Helvetica;
+    display: flex;
+    align-items: center;
+    
+}
+.mission-background {
+    color: seashell;
+    font-size: 22px;
+    background-color: black;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+/*Teatypes*/
+
+.teatypes-content {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-top: 80px;
+}
+.teatypes-title {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    margin: 0 auto;
+    text-align: center;
+}
+.teatypes-pics img {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    padding-bottom: 10px;
+}
+.teatypes-pics span {
+    color: seashell;
+    font-size: 22px;
+    font-family: Helvetica;
+}
+.teatypes-pics div {
+    text-align: center;
+}
+.teatypes-pics {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.downside-teatypes {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 30px;
+}
+#avetea {
+    padding-right: 35px;
+}
+
+/*Locations*/
+
+.locations {
+    background-image: url("images/img-locations-background.jpg");
+    width: 1200px;
+    height: 590px;
+    margin: 0 auto;
+    font-family: Helvetica;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: 70px;
+}
+.locations-title {
+    color: seashell;
+    margin: 0 auto;
+}
+.places div {
+    background-color: black;
+    width: 300px;
+    opacity: 1;
+    color: seashell;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.places {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.places div span {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    opacity: 1;
+}
+.places div h3 {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+#downtown {
+    margin-right: 40px;
+}
+#oak {
+    margin-left: 40px;
+}
+
+/*Contact*/
+
+.contact {
+    color: seashell;
+    font-size: 22px;
+    font-family: Helvetica;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    height: 200px;
+    font-weight: bold;
+}
+.contact h5 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.contact h2 {
+    margin-top: 10px;
+}
+
+/*Footer*/
+
+footer {
+    color: seashell;
+    font-size: 22px;
+    font-family: Helvetica;
+    position: relative;
+    top: 70px;
+    text-align: left;
+    left: 20px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
